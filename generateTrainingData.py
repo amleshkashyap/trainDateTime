@@ -229,12 +229,12 @@ daysLargeLowerSArr = ["mondays", "tuesdays", "wednesdays", "thursdays", "fridays
 daysLargeUpperSArr = ["Mondays", "Tuesdays", "Wednesdays", "Thursdays", "Fridays", "Saturdays", "Sundays"]
 dailyArr = ["daily", "Daily", "every day"]      # "everyday", "Everyday", "Every Day"]
 
-delimsArr = ["to", "-"]                             # "To", "TO" are commented out, "–" handled while parsing
+delimsArr = ["-"]                             # "to", "To", "TO" are commented out, "–" handled while parsing
 
 # All hour types
 morningHoursArr = ["3", "11"]                       # Must be sorted
-afternoonHoursArr = ["13", "23"]                    # Must be sorted?
-hoursSectionArr = ["5", "12"]                       # Must be sorted
+afternoonHoursArr = ["23"]                    # Must be sorted?
+hoursSectionArr = ["5"]                       # Must be sorted
 
 # All section types
 morningArr = ["", "am", "AM"]               # "a.m", "am.", "AM.", "A.M", "AM.", "A.M." are commented out
@@ -242,7 +242,7 @@ afternoonArr = ["", "pm", "PM"]             # "p.m", "pm.", "P.M", "PM.", "P.M."
 
 timeCutArr = [":", "."]
 
-minutesArr = ["15", "30"]                     # Must be sorted
+minutesArr = ["15"]                     # Must be sorted
 
 
 #   Cases For Final Training Data
